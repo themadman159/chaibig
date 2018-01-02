@@ -1,6 +1,8 @@
+$ npm install discord.js
+
 const Discord = require('discord.js');
 
-const botRem = new Discord.Client();
+const botBOT = new Discord.Client();
 
 botBOT.on('ready', () => {
   console.log('Ready!');
